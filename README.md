@@ -18,18 +18,17 @@ An error will occur if:
 - Two or more symbols are next to each other like ??1)
 
 Example:  
-> HELLO!  
-My name is Stan.
-
+> HELLO MY NAME IS STAN!  
+My name is Stan
 
 Will output:  
 > 5  
-is  
-my  
 hello  
+my  
 name  
+is  
 stan  
-2! ! R 1^ 3 0 4^ . E
+0! 1! 2! 3! 4! ! R 1^ 2 3 4^ . E
 
 
 Formatting for Decompression
