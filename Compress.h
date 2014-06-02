@@ -62,10 +62,7 @@ std::string compress(std::string& input, std::vector<std::string>& dictionary)
 {
 	std::regex mismatch(R"([^\n\w\s,.?;!:-]|[,.?;!:\-][,.?;!:\-]+)");
 	if (std::regex_search(input, mismatch))
-	{
-		std::string i{ input };
 		throw std::exception("Multiple symbols next to each other or unexpected characters found.");
-	}
 	std::regex reg(R"(\w+|[.,\?;!\:\n\-])");
 	std::stringstream output;
 	std::sregex_iterator it(input.begin(), input.end(), reg);
