@@ -1,5 +1,5 @@
-#include "Compress.h"
-#include "Decompress.h"
+#include "compress.h"
+#include "decompress.h"
 #include <fstream>
 #include <iostream>
 #include <string>
